@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // Initialize all bloc provider used on this entire application here
     return MaterialApp(
-      title: FoodAppTesting,
+      title: APP_NAME,
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
